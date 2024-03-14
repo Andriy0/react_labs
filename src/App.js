@@ -1,23 +1,11 @@
 import './App.css';
+import Menu from './components/menu/menu';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          Hello, world!
-        </h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Menu/>
       </header>
     </div>
   );
