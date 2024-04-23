@@ -5,9 +5,9 @@ import {useState} from "react";
 
 function App() {
   const [cards] = useState([
-      {id: 1, title: "title 1", description: "description 1"},
-      {id: 2, title: "title 2", description: "description 2"},
-      {id: 3, title: "title 3", description: "description 3"}
+      {id: 1, title: "title 1", description: "description 1", img: "/images/banana.jpeg"},
+      {id: 2, title: "title 2", description: "description 2", img: "/images/orange.jpg"},
+      {id: 3, title: "title 3", description: "description 3", img: "/images/apple.jpg"}
     ])
 
   return (
