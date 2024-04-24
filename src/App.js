@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import NoPage from "./components/noPage/noPage";
 import About from "./components/about/about";
 import Home from "./components/home/home";
+import Cart from "./components/cart/cart";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <section className="container">
           <BrowserRouter>
             <Routes>
+              <Route path="/cart" element={<Cart />}/>
               <Route path="/about" element={<About />}/>
               <Route path="/" element={<Home />}/>
               <Route path="*" element={<NoPage />}/>

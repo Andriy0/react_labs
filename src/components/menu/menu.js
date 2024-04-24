@@ -9,10 +9,11 @@ const Menu = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
+            <Nav.Link href="/cart">Cart</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+            Signed in as: <a href="#">Mark Otto</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
